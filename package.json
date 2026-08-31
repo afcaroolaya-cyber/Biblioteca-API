@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaiderovalle6/api-biblioteca-http.git"
+    "url": "https://github.com/afcaroolaya-cyber/Biblioteca-API.git"
   },
   "bugs": {
-    "url": "https://github.com/jaiderovalle6/api-biblioteca-http/issues"
+    "url": "https://github.com/afcaroolaya-cyber/Biblioteca-API.git"
   },
-  "homepage": "https://github.com/jaiderovalle6/api-biblioteca-http#readme",
+  "homepage": "https://github.com/afcaroolaya-cyber/Biblioteca-API.git",
   "dependencies": {
     "express": "^5.2.1"
   }
