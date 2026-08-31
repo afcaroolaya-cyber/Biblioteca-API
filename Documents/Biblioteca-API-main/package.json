@@ -1,0 +1,39 @@
+{
+  "name": "api-biblioteca-http",
+  "version": "1.0.0",
+  "description": "API HTTP en memoria para gestionar libros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "check": "npm run typecheck && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.2",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afcaroolaya-cyber/Biblioteca-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/afcaroolaya-cyber/Biblioteca-API.git"
+  },
+  "homepage": "https://github.com/afcaroolaya-cyber/Biblioteca-API.git",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
